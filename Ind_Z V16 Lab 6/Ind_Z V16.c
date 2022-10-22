@@ -7,14 +7,14 @@ void main()
 {
 	float x, y;
 	setlocale(LC_ALL, "rus");
-	printf("Ââåäèòå x è y\n");
+	printf("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ x Ð¸ y\n");
 	scanf("%f", &x);
 	scanf("%f", &y);
 	if ((x >= 0 && y >= 0) && (-x + 3 <= y) && ((pow(x, 2) + pow(y, 2)) <= 36)) {
-		printf("Ïðèíàäëåæèò");
+		printf("ÐŸÑ€Ð¸Ð½Ð°Ð´Ð»ÐµÐ¶Ð¸Ñ‚");
 	}
 	else {
-		printf("Íå ïðèíàäëåæèò");
+		printf("ÐÐµ Ð¿Ñ€Ð¸Ð½Ð°Ð´Ð»ÐµÐ¶Ð¸Ñ‚");
 	}
 
 }
